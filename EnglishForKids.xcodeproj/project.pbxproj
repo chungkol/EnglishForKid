@@ -75,7 +75,7 @@
 		54A5A3821D7EB465002484EE /* truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A5A3771D7EB465002484EE /* truck.png */; };
 		54A5A3831D7EB465002484EE /* van.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A5A3781D7EB465002484EE /* van.png */; };
 		54A5A3851D7EB473002484EE /* TransportationsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A5A3841D7EB473002484EE /* TransportationsList.plist */; };
-		54A5A3871D7EB66F002484EE /* DetailCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5A3861D7EB66F002484EE /* DetailCellViewController.swift */; };
+		54A5A3891D7EBEA3002484EE /* DetailCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5A3881D7EBEA3002484EE /* DetailCellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,7 +149,7 @@
 		54A5A3771D7EB465002484EE /* truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck.png; sourceTree = "<group>"; };
 		54A5A3781D7EB465002484EE /* van.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = van.png; sourceTree = "<group>"; };
 		54A5A3841D7EB473002484EE /* TransportationsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransportationsList.plist; sourceTree = "<group>"; };
-		54A5A3861D7EB66F002484EE /* DetailCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailCellViewController.swift; path = ../DetailCellViewController.swift; sourceTree = "<group>"; };
+		54A5A3881D7EBEA3002484EE /* DetailCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,11 +185,11 @@
 		54A5A2E91D7E846E002484EE /* EnglishForKids */ = {
 			isa = PBXGroup;
 			children = (
+				54A5A3881D7EBEA3002484EE /* DetailCellViewController.swift */,
 				54A5A2EA1D7E846E002484EE /* AppDelegate.swift */,
 				54A5A2EE1D7E846E002484EE /* Main.storyboard */,
 				54A5A2FE1D7EA1D6002484EE /* MasterTableViewController.swift */,
 				54A5A3651D7EA6E8002484EE /* DetailViewController.swift */,
-				54A5A3861D7EB66F002484EE /* DetailCellViewController.swift */,
 				54A5A2F11D7E846E002484EE /* Assets.xcassets */,
 				54A5A2F31D7E846E002484EE /* LaunchScreen.storyboard */,
 				54A5A2F61D7E846E002484EE /* Info.plist */,
@@ -421,10 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A5A3891D7EBEA3002484EE /* DetailCellViewController.swift in Sources */,
 				54A5A3661D7EA6E8002484EE /* DetailViewController.swift in Sources */,
 				54A5A2EB1D7E846E002484EE /* AppDelegate.swift in Sources */,
 				54A5A2FF1D7EA1D6002484EE /* MasterTableViewController.swift in Sources */,
-				54A5A3871D7EB66F002484EE /* DetailCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +576,7 @@
 				54A5A2FB1D7E846E002484EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
